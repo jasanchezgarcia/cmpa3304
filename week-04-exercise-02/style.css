@@ -43,6 +43,9 @@ main>p {
 
 .collection-grid {
     margin: 48px 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
 }
 
 .collection-card {
@@ -78,4 +81,15 @@ main>p {
     font-size: 16px;
     margin-bottom: 0;
     line-height: 1.6;
+}
+
+@media (width >= 480px){
+    .collection-card {
+        flex-basis: 45%;
+    }
+}
+@media (width >= 1024px) {
+    .collection-card {
+        flex-basis: 30%;
+    }
 }
