@@ -92,12 +92,56 @@ button {
     background-color: #f7c8f0;
     color: #f505d1;
     border-color: #f7c8f0;
-    border: 2px dotted;
+    border: 2px solid;
     font-family: arial, sans-serif;
-    transition: transform 0.3s ease, background-color 0.3 ease;
+    transition: transform 0.3s ease;
+    padding: 16px 32px;
 }
 
 .button-03:hover {
     transform: translateX(10px);
-    background-color: #8a3f8a;
+}
+
+.button-04 {
+    background-color: #113d13;
+    color: #94e098;
+    padding: 16px 32px;
+    border-color: #113d13;
+    border: 2px solid;
+    font-family: arial, sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.button-04 {
+    transform: scale(1.1);
+}
+
+.button-05 {
+    background-color: #f0a8bc;
+    color: #b30939;
+    padding: 16px 32px;
+    border-color: #f0a8bc;
+    border:2px solid;
+    font-family: arial, sans-serif;
+    transition: transfrom 0.3s ease, border-radius 0.3s case;
+}
+
+.button-05:hover {
+    transform: rotate(-4deg);
+    border-radius: 15px;
+}
+
+.button-06 {
+    background-color: #b35509;
+    color: #e0ae84;
+    padding: 16px 32px;
+    border-color: #b35509;
+    border: 2px solid;
+    font-family: arial, sans-serif;
+    transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+.button-06:hover {
+    background-color: transparent;
+    border: 2px dotted #523926;
 }
