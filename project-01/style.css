@@ -1,7 +1,15 @@
-
 .collection-grid {
     margin: 48px 0;
     display: flex;
     flex-wrap: wrap;
     gap:20px;
+}
+
+.collection-card {
+    border: 1px solid #e5bdc4;;
+    background-color: #fafafa;
+    padding: 16px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
 }
