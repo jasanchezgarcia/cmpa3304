@@ -112,7 +112,7 @@ button {
     transition: transform 0.3s ease;
 }
 
-.button-04 {
+.button-04:hover {
     transform: scale(1.1);
 }
 
