@@ -37,7 +37,7 @@ nav {
 }
 
 .collection-card {
-    border: 1px botted #d85e72;
+    border: 3px dotted #d85e72;
     background-color:  lightpink;
     padding: 16px;
     flex-grow: 1;
@@ -54,12 +54,13 @@ nav {
 }
 .about {
     text-align: center;
+    background-color: lightpink;
 }
 
 .skill {
     text-align: center;
     padding: 20px; 
-    
+    background-color: lightpink;
 }
 
 
