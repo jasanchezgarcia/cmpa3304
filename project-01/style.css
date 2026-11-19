@@ -48,9 +48,8 @@ nav {
 .collection-card img {
     height: auto;
     display: block;
-    border: pink;
+    border: solid pink;
     width: 100%;
-
 }
 .about {
     text-align: center;
