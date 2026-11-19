@@ -5,11 +5,16 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    text-align: center;
+    color: rgb(94, 64, 36);
+}
+
 nav {
     display: flex;
-    justify-content: center;
+    
     background-color: rgb(240, 187, 196);
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .collection-grid {
@@ -42,8 +47,9 @@ nav {
 .skill {
     text-align: center;
     padding: 20px; 
-
+    
 }
+
 
 footer {
     background-color: lightpink;
