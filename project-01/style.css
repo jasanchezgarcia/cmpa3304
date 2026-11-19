@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(250, 216, 221);
+}
+
 h1 {
     background-color: rgb(240, 187, 196);
     text-align: center;
@@ -61,10 +65,6 @@ nav {
     text-align: center;
     padding: 20px; 
     
-}
-.skills ul{
-    background-color: lightpink;
-    text-align: center;
 }
 
 footer {
