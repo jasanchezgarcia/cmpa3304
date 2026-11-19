@@ -56,14 +56,18 @@ nav {
     background-color: lightpink;
 }
 
-.skill {
+.skills {
     text-align: center;
     padding: 20px; 
     background-color: lightpink;
 }
 
+.skills ul {
+    text-align: center;
+}
 
 footer {
     background-color: lightpink;
     text-align: center;
 }
+
