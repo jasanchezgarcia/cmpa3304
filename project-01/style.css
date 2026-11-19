@@ -54,16 +54,16 @@ nav {
 }
 .about {
     text-align: center;
-    background-color: lightpink;
+    
 }
 
 .skills {
     text-align: center;
     padding: 20px; 
-    background-color: lightpink;
+    
 }
-
-.skills ul {
+.skills ul{
+    background-color: lightpink;
     text-align: center;
 }
 
