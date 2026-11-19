@@ -12,6 +12,10 @@ h2 {
     Padding: 10px;
 }
 
+h3 {
+    color: rgb(94, 64, 36);
+}
+
 p {
     text-align: center;
     color: rgb(66, 49, 33);
@@ -22,7 +26,7 @@ nav {
     color: rgb(94, 64, 36);
     background-color: rgb(240, 187, 196);
     justify-content: space-around;
-    border-color: #d85e72;
+    
 }
 
 .collection-grid {
