@@ -40,7 +40,8 @@ nav {
 
 .skill {
     text-align: center;
-
+    justify-content: center;
+    
 }
 
 footer {
