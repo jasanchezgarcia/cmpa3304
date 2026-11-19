@@ -3,18 +3,26 @@ h1 {
     text-align: center;
     padding: 10px;
     margin: 0;
+    color:rgb(94, 64, 36)
 }
 
 h2 {
     text-align: center;
     color: rgb(94, 64, 36);
+    Padding: 10px;
+}
+
+p {
+    text-align: center;
+    color: rgb(66, 49, 33);
 }
 
 nav {
     display: flex;
-    
+    color: rgb(94, 64, 36);
     background-color: rgb(240, 187, 196);
-    justify-content: space-between;
+    justify-content: space-around;
+    border-color: #d85e72;
 }
 
 .collection-grid {
@@ -25,7 +33,7 @@ nav {
 }
 
 .collection-card {
-    border: 1px solid #d85e72;;
+    border: 1px botted #d85e72;
     background-color:  lightpink;
     padding: 16px;
     flex-grow: 1;
