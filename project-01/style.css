@@ -1,3 +1,12 @@
+h1 {
+    backgroung-color: rgb(230, 18, 53);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
 .collection-grid {
     margin: 48px 0;
     display: flex;
@@ -6,10 +15,18 @@
 }
 
 .collection-card {
-    border: 1px solid #e5bdc4;;
-    background-color: #fafafa;
+    border: 1px solid #d85e72;;
+    background-color:  lightpink;
     padding: 16px;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 300px;
+}
+
+.collection-card img {
+    height: auto;
+    display: block;
+    border: pink;
+    width: 100%;
+
 }
