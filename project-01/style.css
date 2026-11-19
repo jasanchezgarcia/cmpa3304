@@ -1,12 +1,13 @@
 body {
     background-color: rgb(250, 229, 232);
+    margin: 20px;
 }
 
 h1 {
     background-color: lightpink;
     text-align: center;
-    padding: 10px;
-    margin: 0;
+    padding: 16px;
+    margin: 10px;
     color:rgb(94, 64, 36)
 }
 
@@ -23,15 +24,24 @@ h3 {
 p {
     text-align: center;
     color: rgb(66, 49, 33);
-    background-color: lightpink;
+    
 }
 
 nav {
     display: flex;
     color: rgb(94, 64, 36);
-    background-color: lightpink;
+    background-color: pink;
     justify-content: space-around;
-    
+    margin: 10px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+nav:hover {
+    background-color: rgb(250, 154, 199);
+    transform: scale(1.1);
+    color: rgb(94, 64, 36);
+    transition: 0.3s;
 }
 
 .collection-grid {
@@ -48,32 +58,58 @@ nav {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 300px;
+    transition: 0.3s;
+}
+
+.collection-card:hover {
+    background-color: rgb(250, 154, 199);
+    color:rgb(94, 64, 36);
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 .collection-card img {
     height: auto;
     display: block;
-    border: 1px solid pink;
+    border: 2px dotted rgb(226, 43, 74);
     width: 100%;
 }
 .about {
     text-align: center;
-    
+    padding: 20px;
+    border: 4px dotted rgb(94, 64, 36);
+    margin: 10px;
+    background-color: lightpink;
 }
 
 .skills {
-    text-align: center;
-    padding: 20px; 
-    
+    padding: 10px; 
+    color:rgb(94, 64, 36); 
+    background-color: lightpink;
+    border: 4px dotted rgb(94, 64, 36);
+    margin: 10px;
 }
 
-ul {
+.skills ul{
     text-align: center;
-    color:rgb(94, 64, 36); 
+    list-style-position: inside;
 }
+
+
+
 
 footer {
     background-color: lightpink;
     text-align: center;
 }
 
+@media (width >= 480px){
+    .collection-card {
+        flex-basis: 45%;
+    }
+}
+@media (width >= 1024px) {
+    .collection-card {
+        flex-basis: 30%;
+    }
+}
