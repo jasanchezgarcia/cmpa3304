@@ -67,6 +67,11 @@ nav {
     
 }
 
+ul {
+    text-align: center;
+    color:rgb(94, 64, 36); 
+}
+
 footer {
     background-color: lightpink;
     text-align: center;
