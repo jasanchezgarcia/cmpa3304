@@ -37,7 +37,7 @@ nav {
 }
 
 .collection-card {
-    border: 1px dotted rgb(94, 64, 36);
+    border: 4px dotted rgb(94, 64, 36);
     background-color:  lightpink;
     padding: 16px;
     flex-grow: 1;
