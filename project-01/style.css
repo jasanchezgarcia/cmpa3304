@@ -29,7 +29,7 @@ p {
 nav {
     display: flex;
     color: rgb(94, 64, 36);
-    background-color: rgb(240, 187, 196);
+    background-color: lightpink;
     justify-content: space-around;
     
 }
